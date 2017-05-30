@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toast</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Toast the Text</string>
+    <string name="shrt">Toast Short</string>
+    <string name="lng">Toast Long</string>
+
+</resources>

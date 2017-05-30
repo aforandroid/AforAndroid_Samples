@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Page2Page</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="page1">This is Page 1</string>
+    <string name="klikpage2">Visit  Page 2</string>
+    <string name="page2">Welcome to Page 2</string>
+    <string name="bak">Back to Page 1</string>
+
+</resources>

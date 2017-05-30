@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckBox_EX</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">CHECKBOX EXAMPLE</string>
+    <string name="like">I LIKE AFORANDROID.INFO</string>
+    <string name="text">" "</string>
+
+</resources>

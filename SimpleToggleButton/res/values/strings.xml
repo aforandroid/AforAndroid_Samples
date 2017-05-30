@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleToggleButton</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tg">HI..IAM TOGGLE BUTTON</string>
+    <string name="TG">TOGGLE ME</string>
+    <string name="txt">" "</string>
+
+</resources>

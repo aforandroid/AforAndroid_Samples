@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dyn_Chkbox</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txt">NAME THE CHECKBOX</string>
+    <string name="no">NUMBER OF CHECKBOX</string>
+    <string name="btn">CREATE</string>
+
+</resources>

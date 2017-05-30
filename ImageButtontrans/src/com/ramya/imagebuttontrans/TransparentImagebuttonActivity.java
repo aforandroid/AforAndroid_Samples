@@ -1,0 +1,23 @@
+package com.ramya.imagebuttontrans;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class TransparentImagebuttonActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.transparent_imagebutton);
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.transparent_imagebutton, menu);
+        return true;
+    }
+    
+}

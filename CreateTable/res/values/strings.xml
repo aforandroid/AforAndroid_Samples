@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CreateTable</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="clickme">CLICK ME TO CREATE TABLE</string>
+    <string name="title">CREATING TABLE</string>
+    <string name="tb">TABLE NAME : MYTABLE</string>
+    <string name="db">DATABASE NAME : AFORANDROID</string>
+    <string name="ins">PERFORM INSERT</string>
+    <string name="post">POST</string>
+    <string name="des">DESCRIPTION</string>
+    <string name="insert">INSERT</string>
+    <string name="del">PERFORM DELETE</string>
+    <string name="delete">DELETE</string>
+
+</resources>

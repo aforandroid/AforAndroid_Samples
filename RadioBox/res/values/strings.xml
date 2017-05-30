@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RadioBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Radio Button Example</string>
+    <string name="parrot">PARROT</string>
+    <string name="peacock">PEACOCK</string>
+    <string name="dove">DOVE</string>
+    <string name="select">SELECT YOUR FAVORITE BIRD</string>
+    <string name="crow">CROW</string>
+    <string name="ok">OK</string>
+
+</resources>

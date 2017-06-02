@@ -39,7 +39,7 @@
     </EditText>
 
     <Button
-        android:id="@+id/btdel"
+        android:id="@+id/maketable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"

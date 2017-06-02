@@ -23,7 +23,7 @@ public class Performing_Insert extends Activity {
         createDatabase();
         pos = (EditText) findViewById(R.id.edpost);
         des = (EditText) findViewById(R.id.eddes);
-        insbtn=(Button)findViewById(R.id.btdel);
+        insbtn=(Button)findViewById(R.id.maketable);
         insbtn.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View arg) {

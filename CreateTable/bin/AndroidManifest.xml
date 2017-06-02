@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".DBAdapter"></activity>
         <activity android:name=".DataBase"></activity>
+        <activity android:name=".Home"></activity>
         <activity android:name=".Performing_Insert"></activity>
         <activity android:name=".Performing_Delete"></activity>
     </application>

@@ -38,7 +38,7 @@
         android:text="@string/db" />
 
     <Button
-        android:id="@+id/btdel"
+        android:id="@+id/maketable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"

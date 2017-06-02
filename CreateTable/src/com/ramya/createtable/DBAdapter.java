@@ -51,5 +51,15 @@ public class DBAdapter
 		    String where="POST=?";
 		    db.delete("MYTABLE", where, new String[]{POST}) ;
 		}
-}
+		public void updateTable(String POST,String DESCRIPITION)
+		{
+				// Define the updated row content.
+				ContentValues updatedValues = new ContentValues();
+				// Assign values for each row.
+				updatedValues.put("POST",POST);
+				updatedValues.put("DECRIPTION", DESCRIPITION);
+		        String where="POST = ?";
+			    db.update("MYTABLE",updatedValues, where, new String[]{POST});			   
+			}
+		}
 

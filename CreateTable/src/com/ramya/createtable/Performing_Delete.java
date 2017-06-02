@@ -21,7 +21,7 @@ public class Performing_Delete extends Activity {
         setContentView(R.layout.delete);
         createDatabase();
         pos = (EditText) findViewById(R.id.edpost);
-        insbtn=(Button)findViewById(R.id.btdel);
+        insbtn=(Button)findViewById(R.id.maketable);
         insbtn.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View arg) {

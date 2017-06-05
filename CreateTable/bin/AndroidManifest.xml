@@ -27,6 +27,7 @@
         <activity android:name=".Home"></activity>
         <activity android:name=".Performing_Insert"></activity>
         <activity android:name=".Performing_Delete"></activity>
+        <activity android:name="Performing_Update"></activity>
     </application>
 
 </manifest>

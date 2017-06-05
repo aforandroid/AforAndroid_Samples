@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.Toast;
-
 public class Home extends Activity {
     Button ins,del,upd;
     @Override
@@ -37,7 +35,7 @@ public class Home extends Activity {
 			@Override
 			public void onClick(View arg) {
 				// TODO Auto-generated method stub
-			Intent i=new Intent(Home.this,Performing_Insert.class);
+			Intent i=new Intent(Home.this,Performing_Update.class);
 			startActivity(i);
 			}     	
         });

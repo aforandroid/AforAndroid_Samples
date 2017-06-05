@@ -3,7 +3,6 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/imag" >
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -13,7 +12,6 @@
         android:layout_marginTop="41dp"
         android:text="PERFORM UPDATE"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
     <EditText
         android:id="@+id/edpost"
         android:layout_width="wrap_content"
@@ -23,7 +21,6 @@
         android:layout_marginTop="42dp"
         android:ems="10"
         android:hint="@string/post" />
-
     <EditText
         android:id="@+id/eddes"
         android:layout_width="wrap_content"
@@ -34,10 +31,8 @@
         android:ems="10"
         android:hint="@string/des"
         android:inputType="textMultiLine" >
-
         <requestFocus />
     </EditText>
-
     <Button
         android:id="@+id/maketable"
         android:layout_width="wrap_content"
@@ -47,5 +42,4 @@
         android:layout_marginLeft="34dp"
         android:layout_marginTop="39dp"
         android:text="UPDATE" />
-
 </RelativeLayout>

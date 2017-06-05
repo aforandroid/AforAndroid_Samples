@@ -36,8 +36,8 @@ public class MyLocationListner implements LocationListener {
 public void onLocationChanged(Location location) {
 getLatitude = "" + location.getLatitude();
 getLongitude = "" + location.getLongitude();
-lati.setText("LATITUDE POINT:"+getLatitude);
-longi.setText("LONGITUDE POINTS:"+getLongitude);
+lati.setText("LATITUDE :"+getLatitude);
+longi.setText("LONGITUDE :"+getLongitude);
 } 
 public void onProviderDisabled(String arg0) {
 } 

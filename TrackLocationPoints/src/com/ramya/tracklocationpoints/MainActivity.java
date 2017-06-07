@@ -1,7 +1,6 @@
 package com.ramya.tracklocationpoints;
 import android.app.Activity;
 import android.content.Context;
-import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -15,9 +14,6 @@ Button getloc;
 TextView lati,longi; 
 LocationManager location_manager;
 String getLatitude,getLongitude;
-double x,y;
-Geocoder geocoder;
-Location loc;
 protected void onCreate(Bundle savedInstanceState) {
 super.onCreate(savedInstanceState);
 setContentView(R.layout.activity_main);

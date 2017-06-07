@@ -18,10 +18,8 @@ public class MainActivity extends Activity {
 Button getloc;
 TextView address;
 LocationManager location_manager;
-String getLatitude;
-String getLongitude;
-double x;
-double y;
+String getLatitude,getLongitude;
+double x,y;
 Geocoder geocoder;
 List<Address> addresses;
 Location loc;

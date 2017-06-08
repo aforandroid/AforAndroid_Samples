@@ -28,8 +28,6 @@ public class Performing_Update extends Activity {
 			@Override
 			public void onClick(View arg) {
 				// TODO Auto-generated method stub
-				post=pos.getText().toString();
-				desc=des.getText().toString();
 				updateTable();
 				Toast.makeText(getApplicationContext(), "VALUES UPDATED", Toast.LENGTH_LONG).show();
 			}     	
@@ -39,7 +37,13 @@ public class Performing_Update extends Activity {
         db=openOrCreateDatabase("AFORANDROID", Context.MODE_PRIVATE, null);
         db.execSQL("CREATE TABLE IF NOT EXISTS MYTABLE(id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, POST VARCHAR,DESCRIPTION VARCHAR);");
     }
-    public void updateTable(){   	  
+    public void updateTable(){  
+    	post=pos.getText().toString();
+		desc=des.getText().toString();
+    	if(post.equals("") || desc.equals("")){
+            Toast.makeText(getApplicationContext(),"Please fill all fields", Toast.LENGTH_LONG).show();
+            return; 
+    	}   
     String query = "UPDATE MYTABLE SET DESCRIPTION='"+desc+"' WHERE POST='"+post+"'";
     db.execSQL(query);
  }
